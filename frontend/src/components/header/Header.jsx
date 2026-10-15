@@ -6,10 +6,10 @@ const Header = () => {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState("");
   useEffect(() => {
-    setCurrentPage(window.location.pathname.split("/")[1]);
+    setCurrentPage(window.location.hash.split("/")[1]);
   });
   // console.log(currentPage);
-  // console.log(window.location.pathname.split("/")[0]);
+  //console.log(window.location.hash.split("/")[1]);
   return (
     <div>
       <a className="skip-link" href="#main">

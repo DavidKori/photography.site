@@ -701,7 +701,7 @@ const Home = () => {
             <div className="journal-grid">
               <article className="journal-card">
                 <div className="j-img">
-                  <img src="src/assets/img/journal-light.jpg" alt="" />
+                  <img src="./src/assets/img/journal-light.jpg" alt="" />
                 </div>
                 <div className="j-meta">
                   <span>Setup</span>
