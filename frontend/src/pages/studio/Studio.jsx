@@ -34,7 +34,7 @@ const Studio = () => {
                   <a className="btn btn--primary btn--lg" href="#team">
                     Meet the team
                   </a>
-                  <a className="btn btn--ghost btn--lg" href="contact">
+                  <a className="btn btn--ghost btn--lg" href="#/contact">
                     Start a project
                   </a>
                 </div>
@@ -270,7 +270,7 @@ const Studio = () => {
                     <span>3 × 30A circuits · independent grip ring</span>
                   </li>
                 </ul>
-                <a className="btn btn--ghost" href="contact">
+                <a className="btn btn--ghost" href="#/contact">
                   Book a visit
                   <svg
                     className="arrow"
@@ -345,7 +345,7 @@ const Studio = () => {
                     <span>kilifi closes weekly for the Sunday market</span>
                   </li>
                 </ul>
-                <a className="btn btn--ghost" href="contact">
+                <a className="btn btn--ghost" href="#/contact">
                   Book a visit
                   <svg
                     className="arrow"
@@ -502,7 +502,7 @@ const Studio = () => {
               to seven.
             </p>
             <div className="cta-row">
-              <a className="btn btn--dark btn--lg" href="contact">
+              <a className="btn btn--dark btn--lg" href="#/contact">
                 Start a project
                 <svg
                   className="arrow"
@@ -520,7 +520,7 @@ const Studio = () => {
                   />
                 </svg>
               </a>
-              <a className="btn btn--ghost btn--lg" href="contact#careers">
+              <a className="btn btn--ghost btn--lg" href="#/contact#careers">
                 See open roles
               </a>
             </div>

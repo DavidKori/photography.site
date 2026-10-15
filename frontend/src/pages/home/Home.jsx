@@ -29,7 +29,7 @@ const Home = () => {
                   catalogues people keep on a shelf instead of in a folder.
                 </p>
                 <div className="hero-cta-row">
-                  <a className="btn btn--primary btn--lg" href="work">
+                  <a className="btn btn--primary btn--lg" href="#/work">
                     See selected work
                     <svg
                       className="arrow"
@@ -47,7 +47,7 @@ const Home = () => {
                       />
                     </svg>
                   </a>
-                  <a className="btn btn--ghost btn--lg" href="services">
+                  <a className="btn btn--ghost btn--lg" href="#/service#rates">
                     Services &amp; rates
                   </a>
                 </div>
@@ -132,7 +132,7 @@ const Home = () => {
             </div>
 
             <div className="work-grid">
-              <a className="work-item work-item--xl reveal" href="work">
+              <a className="work-item work-item--xl reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-atrium.jpg`}
@@ -163,7 +163,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a className="work-item work-item--sm reveal" href="work">
+              <a className="work-item work-item--sm reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-still-1.jpg`}
@@ -194,7 +194,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a className="work-item work-item--md reveal" href="work">
+              <a className="work-item work-item--md reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-arch.jpg`}
@@ -225,7 +225,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a className="work-item work-item--md reveal" href="work">
+              <a className="work-item work-item--md reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-food.jpg`}
@@ -256,7 +256,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a className="work-item work-item--sm reveal" href="work">
+              <a className="work-item work-item--sm reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-portrait-1.jpg`}
@@ -287,7 +287,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a className="work-item work-item--lg reveal" href="work">
+              <a className="work-item work-item--lg reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-product.jpg`}
@@ -318,7 +318,7 @@ const Home = () => {
                 </div>
               </a>
 
-              <a className="work-item work-item--sm reveal" href="work">
+              <a className="work-item work-item--sm reveal" href="#/work">
                 <div className="wm">
                   <img
                     src={`${import.meta.env.BASE_URL}img/work-still-2.jpg`}
@@ -354,7 +354,7 @@ const Home = () => {
               className="center-row"
               style={{ marginTop: "var(--space-7)", justifyContent: "center" }}
             >
-              <a className="btn btn--ghost btn--lg" href="work">
+              <a className="btn btn--ghost btn--lg" href="#/work">
                 All projects · 142
                 <svg
                   className="arrow"
@@ -580,7 +580,7 @@ const Home = () => {
                     <span>Delivery — archive, contact sheets, print files</span>
                   </li>
                 </ul>
-                <a className="btn btn--ghost" href="services">
+                <a className="btn btn--ghost" href="#/service#rates">
                   See full process &amp; rates
                   <svg
                     className="arrow"
@@ -658,7 +658,7 @@ const Home = () => {
                     <span>Capture One Pro · 5K Eizo CG279X · ColorMunki</span>
                   </li>
                 </ul>
-                <a className="btn btn--ghost" href="studio">
+                <a className="btn btn--ghost" href="#/studio">
                   Visit the studios
                   <svg
                     className="arrow"
@@ -823,7 +823,7 @@ const Home = () => {
               later, the right time to send a first note is now.
             </p>
             <div className="cta-row">
-              <a className="btn btn--dark btn--lg" href="contact">
+              <a className="btn btn--dark btn--lg" href="#/contact">
                 Start a project
                 <svg
                   className="arrow"
@@ -841,7 +841,7 @@ const Home = () => {
                   />
                 </svg>
               </a>
-              <a className="btn btn--ghost btn--lg" href="services">
+              <a className="btn btn--ghost btn--lg" href="#/service#process">
                 See rates &amp; process
               </a>
             </div>

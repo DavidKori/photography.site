@@ -113,7 +113,7 @@ const Services = () => {
                   <li>Print files (sRGB, Adobe RGB, CMYK if needed)</li>
                   <li>3-month archive on private gallery</li>
                 </ul>
-                <a className="btn btn--ghost" href="contact">
+                <a className="btn btn--ghost" href="#/contact">
                   Enquire about editorial
                 </a>
               </article>
@@ -142,7 +142,7 @@ const Services = () => {
                   <li>12-month archive · usage licence per use case</li>
                   <li>Hybrid stills + motion add-on available</li>
                 </ul>
-                <a className="btn btn--dark" href="contact">
+                <a className="btn btn--dark" href="#/contact">
                   Enquire about campaign
                 </a>
               </article>
@@ -169,7 +169,7 @@ const Services = () => {
                   <li>Full archive · exclusive sector access</li>
                   <li>Press &amp; PR support for launches</li>
                 </ul>
-                <a className="btn btn--ghost" href="contact">
+                <a className="btn btn--ghost" href="#/contact">
                   Enquire about Premium
                 </a>
               </article>
@@ -367,7 +367,7 @@ const Services = () => {
               first read on the right tier. No long form.
             </p>
             <div className="cta-row">
-              <a className="btn btn--dark btn--lg" href="contact">
+              <a className="btn btn--dark btn--lg" href="#/contact">
                 Start a project
                 <svg
                   className="arrow"
@@ -385,7 +385,7 @@ const Services = () => {
                   />
                 </svg>
               </a>
-              <a className="btn btn--ghost btn--lg" href="work">
+              <a className="btn btn--ghost btn--lg" href="#/work">
                 See selected work
               </a>
             </div>

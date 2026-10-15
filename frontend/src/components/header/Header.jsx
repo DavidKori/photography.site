@@ -19,44 +19,44 @@ const Header = () => {
       <header className="site-header">
         <div className="container container--wide">
           <nav className="nav" aria-label="Primary">
-            <a className="brand" href="home">
+            <a className="brand" href="#home">
               <span className="brand-mark" aria-hidden="true"></span> KPixels
             </a>
             <div className="nav-links" role="navigation">
               <a
-                href="home"
+                href="#/home"
                 aria-current={currentPage === "home" ? "page" : ""}
               >
                 Index
               </a>
 
               <a
-                href="work"
+                href="#/work"
                 aria-current={currentPage === "work" ? "page" : ""}
               >
                 Work
               </a>
               <a
-                href="studio"
+                href="#/studio"
                 aria-current={currentPage === "studio" ? "page" : ""}
               >
                 Studio
               </a>
               <a
-                href="service"
+                href="#/service"
                 aria-current={currentPage === "service" ? "page" : ""}
               >
                 Services
               </a>
               <a
-                href="contact"
+                href="#/contact"
                 aria-current={currentPage === "contact" ? "page" : ""}
               >
                 Contact
               </a>
             </div>
             <div className="nav-cta-row">
-              <a href="contact" className="btn btn--primary btn--sm">
+              <a href="#/contact" className="btn btn--primary btn--sm">
                 Start a project
                 <svg
                   className="arrow"
@@ -91,24 +91,27 @@ const Header = () => {
         <button className="drawer-close" aria-label="Close menu">
           Close
         </button>
-        <a href="/" aria-current={currentPage === "" ? "page" : ""}>
+        <a href="#/home" aria-current={currentPage === "home" ? "page" : ""}>
           Index
         </a>
 
-        <a href="work" aria-current={currentPage === "work" ? "page" : ""}>
+        <a href="#/work" aria-current={currentPage === "work" ? "page" : ""}>
           Work
         </a>
-        <a href="studio" aria-current={currentPage === "studio" ? "page" : ""}>
+        <a
+          href="#/studio"
+          aria-current={currentPage === "studio" ? "page" : ""}
+        >
           Studio
         </a>
         <a
-          href="service"
+          href="#/service"
           aria-current={currentPage === "service" ? "page" : ""}
         >
           Services
         </a>
         <a
-          href="contact"
+          href="#/contact"
           aria-current={currentPage === "contact" ? "page" : ""}
         >
           Contact

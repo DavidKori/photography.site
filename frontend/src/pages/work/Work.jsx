@@ -685,7 +685,7 @@ const Work = () => {
               a first read on scope.
             </p>
             <div className="cta-row">
-              <a className="btn btn--dark btn--lg" href="contact">
+              <a className="btn btn--dark btn--lg" href="#/contact">
                 Start a project
                 <svg
                   className="arrow"
@@ -703,7 +703,7 @@ const Work = () => {
                   />
                 </svg>
               </a>
-              <a className="btn btn--ghost btn--lg" href="services">
+              <a className="btn btn--ghost btn--lg" href="#/services">
                 See rates &amp; process
               </a>
             </div>

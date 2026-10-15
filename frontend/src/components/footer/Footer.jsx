@@ -22,16 +22,16 @@ const Footer = () => {
               <h4>Studio</h4>
               <ul>
                 <li>
-                  <a href="studio">About</a>
+                  <a href="#/studio">About</a>
                 </li>
                 <li>
-                  <a href="studio#team">Team</a>
+                  <a href="#/studio#team">Team</a>
                 </li>
                 <li>
-                  <a href="service">Services</a>
+                  <a href="#/service">Services</a>
                 </li>
                 <li>
-                  <a href="service#rates">Rates</a>
+                  <a href="#/service#rates">Rates</a>
                 </li>
               </ul>
             </div>
@@ -39,16 +39,16 @@ const Footer = () => {
               <h4>Work</h4>
               <ul>
                 <li>
-                  <a href="work">Selected work</a>
+                  <a href="#/work">Selected work</a>
                 </li>
                 <li>
-                  <a href="work#featured">Archive</a>
+                  <a href="#/work#featured">Archive</a>
                 </li>
                 <li>
-                  <a href="work#editorial">Editorial</a>
+                  <a href="#/work#editorial">Editorial</a>
                 </li>
                 <li>
-                  <a href="work#architecture">Architecture</a>
+                  <a href="#/work#architecture">Architecture</a>
                 </li>
               </ul>
             </div>
@@ -56,13 +56,13 @@ const Footer = () => {
               <h4>Connect</h4>
               <ul>
                 <li>
-                  <a href="contact#form">Start a project</a>
+                  <a href="#/contact#form">Start a project</a>
                 </li>
                 <li>
-                  <a href="contact#careers">Careers</a>
+                  <a href="#/contact#careers">Careers</a>
                 </li>
                 <li>
-                  <a href="#">Newsletter</a>
+                  <a href="#/contact#newsletter">Newsletter</a>
                 </li>
               </ul>
             </div>
