@@ -1,0 +1,17 @@
+span.lime {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 5px;
+  border-radius: 50%;
+}
+.cap-card .cap-num,
+.channel-card .label {
+  background-color: rgba(0, 0, 0, 0.555);
+  padding: 5px;
+  border-radius: 5px;
+}
+.invert {
+  color: var(--ink-elev) !important;
+}
+.eyebrow .dot {
+  background-color: rgba(0, 0, 0, 0.555) !important;
+}
