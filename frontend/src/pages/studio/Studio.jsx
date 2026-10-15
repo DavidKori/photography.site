@@ -53,7 +53,10 @@ const Studio = () => {
                 </div>
               </div>
               <div className="hero-media">
-                <img src="src/assets/img/studio-hero.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/studio-hero.jpg`}
+                  alt=""
+                />
                 <div className="floating-tag ft-top">
                   <span className="pill">280 m²</span>
                   kilifi · KEN
@@ -287,7 +290,10 @@ const Studio = () => {
                 </a>
               </div>
               <div className="split-img">
-                <img src="src/assets/img/studio-brooklyn.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/studio-brooklyn.jpg`}
+                  alt=""
+                />
                 <span className="ft-corner">kilifi · kenya</span>
               </div>
             </div>
@@ -359,7 +365,10 @@ const Studio = () => {
                 </a>
               </div>
               <div className="split-img">
-                <img src="src/assets/img/studio-kilifi.jpg" alt="." />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/studio-kilifi.jpg`}
+                  alt="."
+                />
                 <span className="ft-corner">lorem · kilifi</span>
               </div>
             </div>
@@ -393,56 +402,80 @@ const Studio = () => {
             <div className="team-grid">
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-mira.jpg" alt="." />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-mira.jpg`}
+                    alt="."
+                  />
                 </div>
                 <h3>Kori David</h3>
                 <div className="t-role">Founder · Lead photographer</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-joon.jpg" alt="." />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-joon.jpg`}
+                    alt="."
+                  />
                 </div>
                 <h3>Lorem, ipsum.</h3>
                 <div className="t-role">Partner · Director of work</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-tomas.jpg" alt="." />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-tomas.jpg`}
+                    alt="."
+                  />
                 </div>
                 <h3>Lorem, ipsum.</h3>
                 <div className="t-role">Founder · Director of production</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-anya.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-anya.jpg`}
+                    alt=""
+                  />
                 </div>
                 <h3>Lorem, ipsum.</h3>
                 <div className="t-role">Senior producer · NYC</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-eli.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-eli.jpg`}
+                    alt=""
+                  />
                 </div>
                 <h3>Lorem, ipsum.</h3>
                 <div className="t-role">Producer · kilifi</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-rosa.jpg" alt="." />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-rosa.jpg`}
+                    alt="."
+                  />
                 </div>
                 <h3>Lorem, ipsum.</h3>
                 <div className="t-role">In-house retoucher · since 2017</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-felix.jpg" alt="." />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-felix.jpg`}
+                    alt="."
+                  />
                 </div>
                 <h3>Lorem, ipsum.</h3>
                 <div className="t-role">Studio manager · NYC</div>
               </div>
               <div className="team-card">
                 <div className="t-img">
-                  <img src="src/assets/img/team-iris.jpg" alt="." />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/team-iris.jpg`}
+                    alt="."
+                  />
                 </div>
                 <h3>Lorem, ipsum dolor.</h3>
                 <div className="t-role">Production assistant</div>

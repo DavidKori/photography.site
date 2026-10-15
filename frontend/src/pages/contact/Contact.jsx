@@ -51,7 +51,10 @@ const Contact = () => {
                 </div>
               </div>
               <div className="hero-media">
-                <img src="src/assets/img/contact-hero.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/contact-hero.jpg`}
+                  alt=""
+                />
                 <div className="floating-tag ft-top">
                   <span className="pill">Inbox</span>
                   LORI · KENYA
@@ -374,7 +377,10 @@ const Contact = () => {
                 </a>
               </div>
               <div className="split-img">
-                <img src="src/assets/img/contact-room.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/contact-room.jpg`}
+                  alt=""
+                />
                 <span className="ft-corner">Kilifi studio</span>
               </div>
             </div>

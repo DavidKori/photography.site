@@ -52,7 +52,10 @@ const Work = () => {
                 </div>
               </div>
               <div className="hero-media">
-                <img src="src/assets/img/hero-archive.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/hero-archive.jpg`}
+                  alt=""
+                />
                 <div className="floating-tag ft-top">
                   <span className="pill">Editorial</span>
                   lorem · 140
@@ -113,7 +116,10 @@ const Work = () => {
             <div className="work-grid">
               <a className="work-item work-item--xl reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-atrium.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-atrium.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Editorial</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -141,7 +147,10 @@ const Work = () => {
 
               <a className="work-item work-item--sm reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-still-1.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-still-1.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Still</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -169,7 +178,10 @@ const Work = () => {
 
               <a className="work-item work-item--md reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-arch.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-arch.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Architecture</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -197,7 +209,10 @@ const Work = () => {
 
               <a className="work-item work-item--md reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-food.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-food.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Food</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -225,7 +240,10 @@ const Work = () => {
 
               <a className="work-item work-item--sm reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-portrait-1.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-portrait-1.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Portrait</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -253,7 +271,10 @@ const Work = () => {
 
               <a className="work-item work-item--lg reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-product.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-product.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Product</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -281,7 +302,10 @@ const Work = () => {
 
               <a className="work-item work-item--sm reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-still-2.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-still-2.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Still</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -309,7 +333,10 @@ const Work = () => {
 
               <a className="work-item work-item--md reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-portrait-2.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-portrait-2.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Portrait</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -337,7 +364,10 @@ const Work = () => {
 
               <a className="work-item work-item--md reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-arch-2.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-arch-2.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Architecture</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -393,7 +423,10 @@ const Work = () => {
 
               <a className="work-item work-item--sm reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-food-2.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-food-2.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Food</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -421,7 +454,10 @@ const Work = () => {
 
               <a className="work-item work-item--sm reveal" href="#">
                 <div className="wm">
-                  <img src="src/assets/img/work-doc.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-doc.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Documentary</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg

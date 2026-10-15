@@ -53,7 +53,10 @@ const Services = () => {
                 </div>
               </div>
               <div className="hero-media">
-                <img src="src/assets/img/services-hero.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/services-hero.jpg`}
+                  alt=""
+                />
                 <div className="floating-tag ft-top">
                   <span className="pill">Tier 02</span>
                   Campaign · ATRIUM

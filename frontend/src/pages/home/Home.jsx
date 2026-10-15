@@ -66,7 +66,10 @@ const Home = () => {
                 </div>
               </div>
               <div className="hero-media reveal">
-                <img src="src/assets/img/hero-portrait.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/hero-portrait.jpg`}
+                  alt=""
+                />
                 <div className="floating-tag ft-top">
                   <span className="pill">No. 037</span>
                   KORI · best moments
@@ -131,7 +134,10 @@ const Home = () => {
             <div className="work-grid">
               <a className="work-item work-item--xl reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-atrium.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-atrium.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Editorial</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -159,7 +165,10 @@ const Home = () => {
 
               <a className="work-item work-item--sm reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-still-1.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-still-1.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Still</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -187,7 +196,10 @@ const Home = () => {
 
               <a className="work-item work-item--md reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-arch.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-arch.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Architecture</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -215,7 +227,10 @@ const Home = () => {
 
               <a className="work-item work-item--md reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-food.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-food.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Food</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -243,7 +258,10 @@ const Home = () => {
 
               <a className="work-item work-item--sm reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-portrait-1.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-portrait-1.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Portrait</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -271,7 +289,10 @@ const Home = () => {
 
               <a className="work-item work-item--lg reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-product.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-product.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Product</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -299,7 +320,10 @@ const Home = () => {
 
               <a className="work-item work-item--sm reveal" href="work">
                 <div className="wm">
-                  <img src="src/assets/img/work-still-2.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-still-2.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Still</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
@@ -454,7 +478,10 @@ const Home = () => {
               </article>
 
               <article className="cap-card cap-card--tall">
-                <img src="src/assets/img/cap-tall.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/cap-tall.jpg`}
+                  alt=""
+                />
                 <div className="invert cap-tall-meta ">
                   <span className="cap-num lime-text">04 / Architecture</span>
                   <h3>Spaces &amp; interiors.</h3>
@@ -573,7 +600,10 @@ const Home = () => {
                 </a>
               </div>
               <div className="split-img">
-                <img src="src/assets/img/process-shoot.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/process-shoot.jpg`}
+                  alt=""
+                />
                 <span className="ft-corner">Day 02 · Kilifi</span>
               </div>
             </div>
@@ -648,7 +678,10 @@ const Home = () => {
                 </a>
               </div>
               <div className="split-img">
-                <img src="src/assets/img/studio-room.jpg" alt="" />
+                <img
+                  src={`${import.meta.env.BASE_URL}img/studio-room.jpg`}
+                  alt=""
+                />
                 <span className="ft-corner">Greenpoint · NYC</span>
               </div>
             </div>
@@ -701,7 +734,10 @@ const Home = () => {
             <div className="journal-grid">
               <article className="journal-card">
                 <div className="j-img">
-                  <img src="./src/assets/img/journal-light.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/journal-light.jpg`}
+                    alt=""
+                  />
                 </div>
                 <div className="j-meta">
                   <span>Setup</span>
@@ -721,7 +757,10 @@ const Home = () => {
 
               <article className="journal-card">
                 <div className="j-img">
-                  <img src="src/assets/img/journal-colour.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/journal-colour.jpg`}
+                    alt=""
+                  />
                 </div>
                 <div className="j-meta">
                   <span>Process</span>
@@ -741,7 +780,10 @@ const Home = () => {
 
               <article className="journal-card">
                 <div className="j-img">
-                  <img src="src/assets/img/journal-archive.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/journal-archive.jpg`}
+                    alt=""
+                  />
                 </div>
                 <div className="j-meta">
                   <span>Archive</span>
