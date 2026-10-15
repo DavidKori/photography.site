@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { BrowserRouter, replace, Route, Routes, Navigate } from "react-router";
+import { HashRouter, replace, Route, Routes, Navigate } from "react-router";
 
 import "./styles/styles.css";
 import Header from "./components/header/Header.jsx";
@@ -12,7 +12,7 @@ import Work from "./pages/work/Work.jsx";
 import Dashboard from "./pages/Admin/dashboard.jsx";
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         <Route path="*" element={<Navigate to="/" replace />} />
         <Route index="/" element={<Navigate to="home" replace />} />
@@ -34,7 +34,7 @@ function App() {
 
         <Route path="dashboard" element={<Dashboard />} />
       </Routes>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
