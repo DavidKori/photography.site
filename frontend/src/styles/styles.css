@@ -409,9 +409,10 @@ p:last-child {
 
 /* ---------- 5. Header / Nav --------------------------------------------- */
 .site-header {
-  position: sticky;
+  position: fixed;
   top: 0;
   z-index: 50;
+  width: 100vw;
   background: rgba(10, 10, 12, 0.78);
   backdrop-filter: saturate(140%) blur(14px);
   -webkit-backdrop-filter: saturate(140%) blur(14px);
@@ -422,6 +423,7 @@ p:last-child {
   align-items: center;
   gap: var(--space-5);
   padding-block: var(--space-4);
+  justify-content: space-around;
 }
 .brand {
   display: inline-flex;

@@ -5,11 +5,23 @@ import { Link, useNavigate } from "react-router";
 const Header = () => {
   const navigate = useNavigate();
   const [currentPage, setCurrentPage] = useState("");
+  const [drawer, setDrawer] = useState(false);
   useEffect(() => {
     setCurrentPage(window.location.hash.split("/")[1]);
   });
   // console.log(currentPage);
   //console.log(window.location.hash.split("/")[1]);
+
+  const toggleDrawer = () => {
+    setDrawer((e) => !e);
+  };
+  const navLinks = [
+    { name: "Index", href: "home" },
+    { name: "Work", href: "work" },
+    { name: "Studio", href: "studio" },
+    { name: "Services", href: "services" },
+    { name: "Contact", href: "contact" },
+  ];
   return (
     <div>
       <a className="skip-link" href="#main">
@@ -23,37 +35,17 @@ const Header = () => {
               <span className="brand-mark" aria-hidden="true"></span> KPixels
             </a>
             <div className="nav-links" role="navigation">
-              <a
-                href="#/home"
-                aria-current={currentPage === "home" ? "page" : ""}
-              >
-                Index
-              </a>
-
-              <a
-                href="#/work"
-                aria-current={currentPage === "work" ? "page" : ""}
-              >
-                Work
-              </a>
-              <a
-                href="#/studio"
-                aria-current={currentPage === "studio" ? "page" : ""}
-              >
-                Studio
-              </a>
-              <a
-                href="#/service"
-                aria-current={currentPage === "service" ? "page" : ""}
-              >
-                Services
-              </a>
-              <a
-                href="#/contact"
-                aria-current={currentPage === "contact" ? "page" : ""}
-              >
-                Contact
-              </a>
+              {navLinks.map((key, index) => (
+                <>
+                  <a
+                    href={`#/${navLinks[index].href}`}
+                    key={key}
+                    aria-current={`${currentPage === navLinks[index].href ? "page" : ""}`}
+                  >
+                    {navLinks[index].name}
+                  </a>
+                </>
+              ))}
             </div>
             <div className="nav-cta-row">
               <a href="#/contact" className="btn btn--primary btn--sm">
@@ -79,6 +71,7 @@ const Header = () => {
                 aria-label="Open menu"
                 aria-expanded="false"
                 aria-controls="mobile-drawer"
+                onClick={toggleDrawer}
               >
                 <span aria-hidden="true"></span>
               </button>
@@ -87,35 +80,35 @@ const Header = () => {
         </div>
       </header>
 
-      <div className="mobile-drawer" id="mobile-drawer" aria-hidden="true">
-        <button className="drawer-close" aria-label="Close menu">
-          Close
+      <div
+        className={`mobile-drawer ${drawer ? "open" : ""}`}
+        id="mobile-drawer"
+        aria-hidden="true"
+        onClick={toggleDrawer}
+      >
+        <button
+          className="drawer-close"
+          aria-label="Close menu"
+          onClick={() => toggleDrawer}
+        >
+          Close*
         </button>
-        <a href="#/home" aria-current={currentPage === "home" ? "page" : ""}>
-          Index
-        </a>
-
-        <a href="#/work" aria-current={currentPage === "work" ? "page" : ""}>
-          Work
-        </a>
-        <a
-          href="#/studio"
-          aria-current={currentPage === "studio" ? "page" : ""}
-        >
-          Studio
-        </a>
-        <a
-          href="#/service"
-          aria-current={currentPage === "service" ? "page" : ""}
-        >
-          Services
-        </a>
-        <a
-          href="#/contact"
-          aria-current={currentPage === "contact" ? "page" : ""}
-        >
-          Contact
-        </a>
+        {navLinks.map((key, index) => (
+          <>
+            <a
+              href={`#/${navLinks[index].href}`}
+              key={key}
+              aria-current={`${currentPage === navLinks[index].href ? "page" : ""}`}
+              style={
+                currentPage === navLinks[index].href
+                  ? { color: "var(--lime)" }
+                  : {}
+              }
+            >
+              {navLinks[index].name.toUpperCase()}
+            </a>
+          </>
+        ))}
       </div>
     </div>
   );
