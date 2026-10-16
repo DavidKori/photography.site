@@ -395,7 +395,10 @@ const Work = () => {
 
               <a className="work-item work-item--lg reveal" href="#">
                 <div className="wm">
-                  <img src="src\assets\img\work-fashion.jpg" alt="" />
+                  <img
+                    src={`${import.meta.env.BASE_URL}img/work-fashion.jpg`}
+                    alt=""
+                  />
                   <span className="wm-pill">Campaign</span>
                   <span className="wm-arrow" aria-hidden="true">
                     <svg
